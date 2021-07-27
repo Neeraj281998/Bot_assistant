@@ -79,7 +79,7 @@ def run_alexa():
             # User should input the Receiver Email ID
             email_receiver = input("Email Id of receiver : ")
             print("sending Email....")
-            pywhatkit.send_mail('samtech2898@gmail.com', '*******', subject,
+            pywhatkit.send_mail('samtech2898@gmail.com', '(write password)', subject,
                                 message, email_receiver)
 
 
